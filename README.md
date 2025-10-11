@@ -1,4 +1,4 @@
-# Artbeitszeit-Auswerutungs Programm
+# Arbeitszeit-Auswerutungs Programm
 
 
 This project is intended to:
