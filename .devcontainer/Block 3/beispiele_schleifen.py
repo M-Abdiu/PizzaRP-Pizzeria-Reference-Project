@@ -32,3 +32,18 @@ print("Schleife beendet...")
 #mit else
 else:
     print("Nummer nicht gefunden")  # Wenn die break funktion nicht durchgeführt wird. ist auf der Höhe des while loops
+
+
+# Accumulator
+total = 0
+
+for i in range(1, 101):
+    total += i           # oder total = total + i
+
+print("Ergebnis ist", total)  # ist nicht eingerückt, wäre es eingerückt macht die schleif weiter
+
+# endlosschleife für for
+from itertools import count     #ermöglich es von 0 an zu zählen ohne obergrenze
+
+for i in count ():
+    print("Wert ", i)
