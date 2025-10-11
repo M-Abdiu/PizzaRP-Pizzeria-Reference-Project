@@ -1,4 +1,4 @@
-# Arbeitszeit-Auswerutungs Programm
+# Arbeitszeit-Auswertungs Programm
 
 
 This project is intended to:
