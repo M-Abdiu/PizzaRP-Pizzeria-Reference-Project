@@ -10,5 +10,5 @@ def translation(text)->str:             #->str dient nur um zu wissen was wieder
 
 while text.strip().lower() != "stop":              #.strip() = blanks löschen .lower() = alles in Kleinbuchstaben machen
     print(translation(text))
-    text = str(input("Bitte Text eingeben:"))     # bis der User stop eingibt, ist die Schleife "Endlos"
+    text = str(input("Bitte Text eingeben:"))     # bis der User stop eingibt, ist die Schleife "Endlos" drum nochmal eibgabe
 print("Programmende...Bye")                        # geht nich zu diesem print ohne das die schleife beendet ist. 
